@@ -1,0 +1,10 @@
+﻿global using Clean_Architecture_And_CQRS.Application.Products.Commands;
+global using Clean_Architecture_And_CQRS.Application.Products.RepositoryInterface;
+global using Clean_Architecture_And_CQRS.Infrastructure.Dbcontext;
+global using Clean_Architecture_And_CQRS.Infrastructure.Repository;
+global using Microsoft.EntityFrameworkCore;
+global using Clean_Architecture_And_CQRS.Application.Products.Queries;
+global using Clean_Architecture_And_CQRS.Contracts;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using System.ComponentModel.DataAnnotations;

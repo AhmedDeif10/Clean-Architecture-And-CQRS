@@ -1,9 +1,4 @@
-﻿using Clean_Architecture_And_CQRS.Application.Products.DTO;
-using Clean_Architecture_And_CQRS.Application.Products.RepositoryInterface;
-using Clean_Architecture_And_CQRS.Domain.Entities;
-using MediatR;
-
-namespace Clean_Architecture_And_CQRS.Application.Products.Commands.Handle
+﻿namespace Clean_Architecture_And_CQRS.Application.Products.Commands.Handle
 {
     public class CreateProductHandler
     : IRequestHandler<CreateProductCommand, ProductDto>

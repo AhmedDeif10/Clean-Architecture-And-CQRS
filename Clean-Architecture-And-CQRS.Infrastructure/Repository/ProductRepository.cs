@@ -1,9 +1,4 @@
-﻿using Clean_Architecture_And_CQRS.Application.Products.RepositoryInterface;
-using Clean_Architecture_And_CQRS.Domain.Entities;
-using Clean_Architecture_And_CQRS.Infrastructure.Dbcontext;
-using Microsoft.EntityFrameworkCore;
-
-namespace Clean_Architecture_And_CQRS.Infrastructure.Repository
+﻿namespace Clean_Architecture_And_CQRS.Infrastructure.Repository
 {
     public class ProductRepository : IProductRepository
     {

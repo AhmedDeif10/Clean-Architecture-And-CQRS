@@ -1,7 +1,4 @@
-﻿using Clean_Architecture_And_CQRS.Application.Products.RepositoryInterface;
-using MediatR;
-
-namespace Clean_Architecture_And_CQRS.Application.Products.Commands.Handle
+﻿namespace Clean_Architecture_And_CQRS.Application.Products.Commands.Handle
 {
     public class DeleteProductHandler
     : IRequestHandler<DeleteProductCommand, bool>

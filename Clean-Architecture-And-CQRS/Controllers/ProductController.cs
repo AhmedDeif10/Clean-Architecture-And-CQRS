@@ -1,10 +1,4 @@
-﻿using Clean_Architecture_And_CQRS.Application.Products.Commands;
-using Clean_Architecture_And_CQRS.Application.Products.Queries;
-using Clean_Architecture_And_CQRS.Contracts;
-using MediatR;
-using Microsoft.AspNetCore.Mvc;
-
-namespace Clean_Architecture_And_CQRS.Controllers
+﻿namespace Clean_Architecture_And_CQRS.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

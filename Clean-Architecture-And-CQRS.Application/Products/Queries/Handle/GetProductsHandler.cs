@@ -1,8 +1,4 @@
-﻿using Clean_Architecture_And_CQRS.Application.Products.DTO;
-using Clean_Architecture_And_CQRS.Application.Products.RepositoryInterface;
-using MediatR;
-
-namespace Clean_Architecture_And_CQRS.Application.Products.Queries.Handle
+﻿namespace Clean_Architecture_And_CQRS.Application.Products.Queries.Handle
 {
     public class GetProductsHandler
     : IRequestHandler<GetProductsQuery, List<ProductDto>>

@@ -1,6 +1,4 @@
-﻿using Clean_Architecture_And_CQRS.Domain.Entities;
-
-namespace Clean_Architecture_And_CQRS.Application.Products.RepositoryInterface
+﻿namespace Clean_Architecture_And_CQRS.Application.Products.RepositoryInterface
 {
     public interface IProductRepository
     {

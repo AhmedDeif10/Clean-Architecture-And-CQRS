@@ -1,13 +1,4 @@
-﻿using Clean_Architecture_And_CQRS.Application.Products.DTO;
-using Clean_Architecture_And_CQRS.Application.Products.RepositoryInterface;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Clean_Architecture_And_CQRS.Application.Products.Queries.Handle
+﻿namespace Clean_Architecture_And_CQRS.Application.Products.Queries.Handle
 {
     public class GetProductByIdHandler
     : IRequestHandler<GetProductByIdQuery, ProductDto?>

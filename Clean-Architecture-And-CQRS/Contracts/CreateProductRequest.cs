@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Clean_Architecture_And_CQRS.Contracts
+﻿namespace Clean_Architecture_And_CQRS.Contracts
 {
     public record CreateProductRequest(
     [Required]

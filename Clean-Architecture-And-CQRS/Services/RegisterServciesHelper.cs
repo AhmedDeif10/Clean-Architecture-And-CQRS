@@ -1,10 +1,4 @@
-﻿using Clean_Architecture_And_CQRS.Application.Products.Commands;
-using Clean_Architecture_And_CQRS.Application.Products.RepositoryInterface;
-using Clean_Architecture_And_CQRS.Infrastructure.Dbcontext;
-using Clean_Architecture_And_CQRS.Infrastructure.Repository;
-using Microsoft.EntityFrameworkCore;
-
-namespace Clean_Architecture_And_CQRS.Services
+﻿namespace Clean_Architecture_And_CQRS.Services
 {
     public class RegisterServciesHelper
     {
