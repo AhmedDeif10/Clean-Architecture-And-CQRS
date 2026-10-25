@@ -4,9 +4,11 @@
     {
         public static void RegisteredServices(WebApplicationBuilder builder)
         {
+            #region AddDbContext
             builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(
-                    builder.Configuration.GetConnectionString("DefaultConnection")));
+                    options.UseSqlServer(
+                        builder.Configuration.GetConnectionString("DefaultConnection"))); 
+            #endregion
 
             builder.Services.AddMediatR(cfg =>
                 cfg.RegisterServicesFromAssembly(typeof(CreateProductCommand).Assembly));

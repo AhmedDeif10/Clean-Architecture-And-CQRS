@@ -8,5 +8,8 @@
         }
 
         public DbSet<Product> Products => Set<Product>();
+
+        //public virtual DbSet<Product> TbCountries { get; set; }
+
     }
 }
